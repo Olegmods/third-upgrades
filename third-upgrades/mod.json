@@ -6,13 +6,14 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Mechanics",
-	"version" : "1.1.1",
+	"version" : "1.1.2",
 	"compatibility" :
 	{
 		"min" : "1.6.0"
 	},
 	"changelog" :
     {
+		"1.1.2"   : [ "Graphical changes by Aphra" ],
 		"1.1.1"   : [ "Horde buildings fixes" ],
 		"1.1.0"   : [ "Added ToW and HotA compatibility patches" ],
 		"1.0.2"   : [ "Update to vcmi-1.4 version" ],
