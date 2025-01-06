@@ -25,7 +25,9 @@
 		"tides-of-war.hota-balance-compatibility-patch",
 		"hota.gameBalance",
 		"hota.confluxVaultofAshes",
-		"hota.heroes3DataPatch"
+		"hota.heroes3DataPatch",
+		"third-upgrades.tow-comp",
+		"third-upgrades.hota-comp"
 	],
 	"factions" :
 	[
