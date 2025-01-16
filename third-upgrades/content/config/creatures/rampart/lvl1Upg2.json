@@ -57,7 +57,8 @@
 
 			"jousting" :
 			{
-				"type" : "JOUSTING"
+				"type" : "JOUSTING",
+				"val" : 10
 			}
 //aura of bravery? ask vmaiko
 		},
