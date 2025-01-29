@@ -6,7 +6,7 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
-	"version" : "1.1.6",
+	"version" : "1.1.7",
 	"compatibility" :
 	{
 		"min" : "1.6.1"
@@ -27,6 +27,7 @@
 	},
 	"changelog" :
     {
+		"1.1.7"   : [ "Added Chinese translation" ],
 		"1.1.6"   : [ "Added Russian translation" ],
 	    	"1.1.5"   : [ "Dependencies fix" ],
 		"1.1.4"   : [ "Unicorn Glade fix" ],
