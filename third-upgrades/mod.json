@@ -18,6 +18,13 @@
 			"translation/third-upgrades/russian.json"
 		]
 	},
+	"chinese": {
+		"name": "二阶升级",
+		"description": "为原版9个派系的生物提供第二阶升级。该模组基于ERA的Third Upgrades Mod v2.17.0开发。",
+		"translations": [
+			"translation/third-upgrades/chinese.json"
+		]
+	},
 	"changelog" :
     {
 		"1.1.6"   : [ "Added Russian translation" ],
