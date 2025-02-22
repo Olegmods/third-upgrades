@@ -57,6 +57,7 @@
 			"justing" :
 			{
 				"type" : "JOUSTING",
+				"val" : 10
 			},
 			"fearless" :
 			{

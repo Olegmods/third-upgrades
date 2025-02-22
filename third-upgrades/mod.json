@@ -1,18 +1,39 @@
 {
 	"name" : "Third Upgrades Mod",
-	"author" : "VMaiko, avatar",
+	"author" : "VMaiko, avatar, Xardas33 (upgraded buildings graphics)",
 	"contact" : "http://heroescommunity.com/viewthread.php3?TID=46241",
 	"description" : "In every nine standard H3 town, you have opportunity to upgrade creatures once more. Mod is based at ERA's Third Upgrades Mod v2.17.0.",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Mechanics",
-	"version" : "1.1.1",
+	"modType" : "Expansion",
+	"version" : "1.1.8",
 	"compatibility" :
 	{
-		"min" : "1.6.0"
+		"min" : "1.6.1"
+	},
+	"russian" : {
+		"name" : "Третий уровень улучшений",
+		"description" : "В каждом из девяти стандартных городов H3 у вас есть возможность улучшить существ еще раз. Мод основан на третьей версии обновления ERA версии 2.17.0.",
+		"translations" : [
+			"translation/third-upgrades/russian.json"
+		]
+	},
+	"chinese": {
+		"name": "二阶升级",
+		"description": "为原版9个派系的生物提供第二阶升级。该模组基于ERA的Third Upgrades Mod v2.17.0开发。",
+		"translations": [
+			"translation/third-upgrades/chinese.json"
+		]
 	},
 	"changelog" :
     {
+		"1.1.8"   : [ "Added few upgraded buildings graphics from old Raven's Upgrades mod (made by Xardas33)" ],
+		"1.1.7"   : [ "Added Chinese translation" ],
+		"1.1.6"   : [ "Added Russian translation" ],
+	    "1.1.5"   : [ "Dependencies fix" ],
+		"1.1.4"   : [ "Unicorn Glade fix" ],
+		"1.1.3"   : [ "Hobgoblin and Cyclops Emperor fixed" ],
+		"1.1.2"   : [ "Graphical changes by Aphra" ],
 		"1.1.1"   : [ "Horde buildings fixes" ],
 		"1.1.0"   : [ "Added ToW and HotA compatibility patches" ],
 		"1.0.2"   : [ "Update to vcmi-1.4 version" ],

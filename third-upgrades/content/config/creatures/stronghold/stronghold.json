@@ -3,7 +3,7 @@
 	{
 		"upgrades": ["tumHobgoblinOverlord"]
 	},
-	"core:goblinWolfRider" :
+	"core:hobgoblinWolfRider" :
 	{
 		"upgrades": ["tumWolfRiderKiller"]
 	},

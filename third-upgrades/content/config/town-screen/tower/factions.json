@@ -27,14 +27,14 @@
 			"structures" :
 			{
 				"extraCapitol":{ "animation" : "town-screen/tower/TBTWEXT5.def", "x" : 430, "y" : 28,  "z" : 0 },				
-				"horde1":         { "y" : 46 },
-				"horde1Upgr":     { "y" : 27 },
-				"horde1Upgr2":    	  { "animation" : "TBTWHRD2.def", "x" : 0, "y" : 28, "border" : "TOTGAR2H.bmp", "area" : "TZTGAR2H.bmp", "hidden" : true, "builds" : "horde1Upgr" },
-				"dwellingUp2Lvl1": { "animation" : "TBTWUP_0.def", "x" : 446, "y" : 221, "z" : 1,  "border" : "TOTGRM2A.bmp", "area" : "TZTGRM2A.bmp" },
-				"dwellingUp2Lvl2": { "animation" : "TBTWUP_1.def", "x" : 4,   "y" : 28,  "border" : "TOTGAR2.bmp",  "area" : "TZTGAR2.bmp" },				 
-				"dwellingUp2Lvl3": { "animation" : "TBTWUP_2.def", "x" : 209, "y" : 177, "z" : 1,  "border" : "TOTGOL2A.bmp", "area" : "TZTGOL2A.bmp" },
-				"dwellingUp2Lvl4": { "animation" : "TBTWUP_3.def", "x" : 613, "y" : 74,  "border" : "TOTMAG2.bmp",  "area" : "TZTMAG2.bmp" },
-				"dwellingUp2Lvl5": { "animation" : "TBTWUP_4.def", "x" : 511, "y" : 8,   "border" : "TOTGEN2.bmp",  "area" : "TZTGEN2.bmp" },
+				"horde1":         { "y" : 47 },
+				"horde1Upgr":     { "y" : 28 },
+				"horde1Upgr2":     	{ "animation" : "town-screen/tower/TBTWHRD2U.def", "x" : 0,   "y" : 8,  "border" : "town-screen/tower/borders/TOTGAR2HU.bmp", "area" : "town-screen/tower/areas/TZTGAR2HU.bmp", "hidden" : true, "builds" : "horde1Upgr" },
+				"dwellingUp2Lvl1": 	{ "animation" : "town-screen/tower/TBTWUP2_0.def", "x" : 440, "y" : 221, "z" : 1,  "border" : "town-screen/tower/borders/TOTGRM2AU.bmp", "area" : "town-screen/tower/areas/TZTGRM2AU.bmp" },
+				"dwellingUp2Lvl2": 	{ "animation" : "town-screen/tower/TBTWUP2_1.def", "x" : 4,   "y" : 8,  "border" : "town-screen/tower/borders/TOTGAR2U.bmp",  "area" : "town-screen/tower/areas/TZTGAR2U.bmp" },
+				"dwellingUp2Lvl3": 	{ "animation" : "town-screen/tower/TBTWUP2_2.def", "x" : 209, "y" : 177, "z" : 1,  "border" : "town-screen/tower/borders/TOTGOL2AU.bmp", "area" : "town-screen/tower/areas/TZTGOL2AU.bmp" },
+				"dwellingUp2Lvl4": 	{ "animation" : "town-screen/tower/TBTWUP2_3.def", "x" : 610, "y" : 37,  "border" : "town-screen/tower/borders/TOTMAG2U.bmp",  "area" : "town-screen/tower/areas/TZTMAG2U.bmp" },
+				"dwellingUp2Lvl5": 	{ "animation" : "town-screen/tower/TBTWUP2_4.def", "x" : 511, "y" : 8,   "border" : "town-screen/tower/borders/TOTGEN2U.bmp",  "area" : "town-screen/tower/areas/TZTGEN2U.bmp" },
 				"dwellingUp2Lvl6": { "animation" : "TBTWUP_5.def", "x" : 681, "y" : 157, "z" : 2,  "border" : "TOTNAG2.bmp",  "area" : "TZTNAG2.bmp" },
 				"dwellingUp2Lvl7": { "animation" : "TBTWUP_6.def", "x" : 75,  "y" : 91,  "z" : -1, "border" : "TOTTIT2.bmp",  "area" : "TZTTIT2.bmp" }			
 			},

@@ -11,6 +11,13 @@
 	{
 		"min" : "1.5.0"
 	},
+	"russian" : {
+		"name" : "Совместимость с ToW & HotA",
+		"description" : "Это патч совместимости между модом Третий Уровень Улучшений и дополнениями {Tides of War} и {Horn of the Abyss}.",
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
 	"changelog" :
     {
 		"1.0.0"   : [ "Initial release" ]
@@ -25,7 +32,9 @@
 		"tides-of-war.hota-balance-compatibility-patch",
 		"hota.gameBalance",
 		"hota.confluxVaultofAshes",
-		"hota.heroes3DataPatch"
+		"hota.heroes3DataPatch",
+		"third-upgrades.tow-comp",
+		"third-upgrades.hota-comp"
 	],
 	"factions" :
 	[
