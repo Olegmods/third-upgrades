@@ -6,15 +6,15 @@
 			"structures" :
 			{
 				"extraCapitol":{ "animation" : "town-screen/inferno/TBIFEXT5.def", "x" : 378, "y" : 91,  "z" : -1 },
-				"horde4": { "animation" : "TBINHRD2.def", "x" : 614, "y" : 221, "border" : "TOIMP2HA.bmp", "area" : "TZIMP2HA.bmp", "hidden" : true, "builds" :  "horde1Upgr" },
-				"horde3": { "animation" : "TBINHRD4.def", "x" : 9,   "y" : 273, "border" : "TOIHND2H.bmp", "area" : "TZIHND2H.bmp", "hidden" : true, "builds" : "horde2Upgr" },		
-				"dwellingUp2Lvl1": { "animation" : "TBINUP_0.def", "x" : 614, "y" : 221, "border" : "TOIMP2A.bmp",  "area" : "TZIMP2A.bmp"  },
-				"dwellingUp2Lvl2": { "animation" : "TBINUP_1.def", "x" : 187, "y" : 212, "z" : 4,  "border" : "TOIGOG2A.bmp", "area" : "TZIGOG2A.bmp" },
-				"dwellingUp2Lvl3": { "animation" : "TBINUP_2.def", "x" : 9,   "y" : 273, "border" : "TOIHND2.bmp",  "area" : "TZIHND2.bmp"  },
-				"dwellingUp2Lvl4": { "animation" : "TBINUP_3.def", "x" : 412, "y" : 197, "z" : 2,  "border" : "TOIDMN2.bmp",  "area" : "TZIDMN2.bmp" },
-				"dwellingUp2Lvl5": { "animation" : "TBINUP_4.def", "x" : 359, "y" : 244, "z" : 3,  "border" : "TOIPIT2.bmp",  "area" : "TZIPIT2.bmp" },
-				"dwellingUp2Lvl6": { "animation" : "TBINUP_5.def", "x" : 220, "y" : 282, "z" : 5,  "border" : "TOIEFR2.bmp",  "area" : "TZIEFR2.bmp" },
-				"dwellingUp2Lvl7": { "animation" : "TBINUP_6.def", "x" : 420, "y" : 105, "z" : -1, "border" : "TOIDVL2.bmp",  "area" : "TZIDVL2.bmp" }
+				"horde4": { "animation" : "town-screen/inferno/TBINHRD2_2.def", "x" : 614, "y" : 221, "border" : "town-screen/inferno/borders/TOIMP3HA.bmp", "area" : "town-screen/inferno/areas/TZIMP3HA.bmp", "hidden" : true, "builds" :  "horde1Upgr" },
+				"horde3": { "animation" : "town-screen/inferno/TBINHRD2_4.def", "x" : 9,   "y" : 273, "border" : "town-screen/inferno/borders/TOIHND3H.bmp", "area" : "town-screen/inferno/areas/TZIHND3H.bmp", "hidden" : true, "builds" : "horde2Upgr" },		
+				"dwellingUp2Lvl1": { "animation" : "town-screen/inferno/TBINUP2_0.def", "x" : 614, "y" : 221, "border" : "town-screen/inferno/borders/TOIMP3A.bmp",  "area" : "town-screen/inferno/areas/TZIMP3A.bmp"  },
+				"dwellingUp2Lvl2": { "animation" : "town-screen/inferno/TBINUP2_1.def", "x" : 187, "y" : 212, "z" : 4,  "border" : "town-screen/inferno/borders/TOIGOG3A.bmp", "area" : "town-screen/inferno/areas/TZIGOG3A.bmp" },
+				"dwellingUp2Lvl3": { "animation" : "town-screen/inferno/TBINUP2_2.def", "x" : 9,   "y" : 273, "border" : "town-screen/inferno/borders/TOIHND3.bmp",  "area" : "town-screen/inferno/areas/TZIHND3.bmp"  },
+				"dwellingUp2Lvl4": { "animation" : "town-screen/inferno/TBINUP2_3.def", "x" : 412, "y" : 197, "z" : 2,  "border" : "town-screen/inferno/borders/TOIDMN3.bmp",  "area" : "town-screen/inferno/areas/TZIDMN3.bmp" },
+				"dwellingUp2Lvl5": { "animation" : "town-screen/inferno/TBINUP2_4.def", "x" : 359, "y" : 223, "z" : 3,  "border" : "town-screen/inferno/borders/TOIPIT3.bmp",  "area" : "town-screen/inferno/areas/TZIPIT3.bmp" },
+				"dwellingUp2Lvl6": { "animation" : "town-screen/inferno/TBINUP2_5.def", "x" : 220, "y" : 282, "z" : 5,  "border" : "town-screen/inferno/borders/TOIEFR3.bmp",  "area" : "town-screen/inferno/areas/TZIEFR3.bmp" },
+				"dwellingUp2Lvl7": { "animation" : "town-screen/inferno/TBINUP2_6.def", "x" : 420, "y" : 72, "z" : -1, "border" : "town-screen/inferno/borders/TOIDVL3.bmp",  "area" : "town-screen/inferno/areas/TZIDVL3.bmp" }
 			},
 			"buildingsIcons": "town-screen/inferno/ALTHALLINFR.DEF",
 			"hallBackground": "TPTHBKIN",
@@ -51,34 +51,7 @@
 					],
 					"mode" : "auto" 
 				},
-				"dwellingUpLvl1":
-				{
-					"name" : "Adv. Imp Crucible"
-				},			
-				"dwellingUpLvl2":
-				{
-					"name" : "Adv. Hall of Sins"
-				},
-				"dwellingUpLvl3":
-				{
-					"name" : "Adv. Kennels"
-				},
-				"dwellingUpLvl4":
-				{
-					"name" : "Adv. Demon Gate"
-				},
-				"dwellingUpLvl5":
-				{
-					"name" : "Adv. Hell Hole"
-				},
-				"dwellingUpLvl6":
-				{
-					"name" : "Adv. Fire Lake"
-				},
-				"dwellingUpLvl7":
-				{
-					"name" : "Adv. Forsaken Palace"
-				},
+
 				"horde4" :
 				{
 					"description" : "The Birthing Pools increase Vermins production by 8 per week.",
@@ -98,7 +71,7 @@
 				"dwellingUp2Lvl1" :
 				{
 					"description" : "The Imp Crucible allows you to recruit Vermins.",
-					"name" : "{Upg. Imp Crucible}",
+					"name" : "{Adv. Imp Crucible}",
 				
 					"cost" :
 					{
@@ -119,7 +92,7 @@
 				{
 				
 					"description" : "The Hall of Sins allows you to recruit Winged Magogs.",
-					"name" : "{Upg. Hall of Sins}",
+					"name" : "{Adv. Hall of Sins}",
 					
 					"cost" :
 					{
@@ -158,7 +131,7 @@
 				{
 				
 					"description" : "The Kennels allow you to recruit Astral Cerberi.",
-					"name" : "{Upg. Kennels}",
+					"name" : "{Adv. Kennels}",
 				
 					"cost" :
 					{
@@ -179,7 +152,7 @@
 				{
 				
 					"description" : "The Demon Gate allows you to recruit Sharp-Horned Demons.",
-					"name" : "{Upg. Demon Gate}",
+					"name" : "{Adv. Demon Gate}",
 					"requires" : 
 					[ 
 						"dwellingUp2Lvl3"
@@ -197,7 +170,7 @@
 				{
 				
 					"description" : "The Hell Hole allows you to recruit Pit Masters.",
-					"name" : "{Upg. Hell Hole}",
+					"name" : "{Adv. Hell Hole}",
 				
 					"cost" :
 					{
@@ -213,7 +186,7 @@
 				{ 
 				
 					"description" : "The Fire Lake allows you to recruit Efreeti Rajahs.",
-					"name" : "{Upg. Fire Lake}",
+					"name" : "{Adv. Fire Lake}",
 				
 					"cost" :
 					{
@@ -231,7 +204,7 @@
 				{ 
 				
 					"description" : "The Forsaken Palace allows you to recruit Hell Barons.",
-					"name" : "{Upg. Forsaken Palace}",
+					"name" : "{Adv. Forsaken Palace}",
 				
 					"cost" :
 					{

@@ -45,7 +45,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "creatures/fortress/battle/projectile/PPLIZAXUP.DEF",
+				"projectile": "PPLIZAX.DEF",
 				"attackClimaxFrame" : 9,
 				"offset" :
 				{

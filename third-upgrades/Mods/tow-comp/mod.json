@@ -20,6 +20,26 @@
 		"wake-of-gods.level8units",
 		"tides-of-war.alternative-creatures"
 	],
+	"creatures" :
+	[
+		"config/creatures/necropolis/spiritWerewolf",
+		"config/creatures/fortress/trollHexer",
+		"config/creatures/rampart/forestDryad",
+		"config/creatures/inferno/tempter",
+		"config/creatures/tower/silverDragonGolem",
+		"config/creatures/conflux/nobleTriton",
+		"config/creatures/castle/royalPaladin",
+		"config/creatures/dungeon/illithilich",
+		"config/creatures/stronghold/darkQuetzalcouatl"
+	],
+	"spells" :
+	[
+		"config/spells/symbiosis3"
+	],
+	"heroes" :
+	[
+		"config/heroes/tow_heroes"
+	],
 	"factions" :
 	[
 		"config/town-screen/necropolis/factions",

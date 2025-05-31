@@ -1,8 +1,8 @@
 {
 	"tumSteelGolem": {
 		"name" : {
-			"singular" : "Steel Golem",
-			"plural" : "Steel Golems"
+			"singular" : "Mithril Golem",
+			"plural" : "Mithril Golems"
 		},
 		"faction" : "tower",
 		"level" : 3,

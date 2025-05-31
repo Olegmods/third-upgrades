@@ -2,16 +2,17 @@
     "basepath" : "town-screen/inferno/frames/",
 	"images" :
 	[
-		{ "frame" : 17, "file" : "TPIImp2H"},
-		{ "frame" : 20, "file" : "TPIHnd2H"},
-		{ "frame" : 44, "file" : "TPIImp2"},
-		{ "frame" : 45, "file" : "TPIGog2"},
-		{ "frame" : 46, "file" : "TPIHnd2"},
-		{ "frame" : 47, "file" : "TPIDmn2"},
-		{ "frame" : 48, "file" : "TPIPit2"},
-		{ "frame" : 49, "file" : "TPIEfr2"},
-		{ "frame" : 50, "file" : "TPIDvl2"},		
+		{ "frame" : 17, "file" : "TBIFIMP3HRD"},
+		{ "frame" : 20, "file" : "TBIFCERB3HRD"},
+		{ "frame" : 44, "file" : "TBIFIMP3"},
+		{ "frame" : 45, "file" : "TBIFGOG3"},
+		{ "frame" : 46, "file" : "TBIFCERB3"},
+		{ "frame" : 47, "file" : "TBIFDEM3"},
+		{ "frame" : 48, "file" : "TBIFPIT3"},
+		{ "frame" : 49, "file" : "TBIFEFR3"},
+		{ "frame" : 50, "file" : "TBIFDEV3"}	
 		{ "frame" : 54, "file" : "TINF4.png"},
-		{ "frame" : 61, "file" : "TINF4UP.png"}
+		{ "frame" : 61, "file" : "TINF4UP.png"},
+		{ "frame" : 68, "file" : "TINF4UUP.png"}
 	]
 }

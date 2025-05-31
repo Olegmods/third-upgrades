@@ -1,12 +1,12 @@
 {
 	"name" : "Third Upgrades Mod",
-	"author" : "VMaiko, avatar, Xardas33 (upgraded buildings graphics)",
+	"author" : "VMaiko (author of the idea), avatar (porting), Xardas33 (upgraded buildings graphics), Olegmods.INC (ToW third upgrades idea, some building graphics, some creatures and configs), Aphra (graphics), FirePaladin (Tower T7 building graphics and 3rd upgrade centaur), Koven1Nordsiard (Dungeon alt-T5 building graphics), Toriko (some unit graphics), Nephretes (3rd upgrade dryad), Naga Empresses' updated moving animation by Orzie, Elf Noble supposedly made by Witchking, Elder Dendroid made by Trith, Inquisitor graphics by yogdush.",
 	"contact" : "http://heroescommunity.com/viewthread.php3?TID=46241",
 	"description" : "In every nine standard H3 town, you have opportunity to upgrade creatures once more. Mod is based at ERA's Third Upgrades Mod v2.17.0.",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
-	"version" : "1.1.8",
+	"version" : "1.1.9",
 	"compatibility" :
 	{
 		"min" : "1.6.1"
@@ -27,6 +27,7 @@
 	},
 	"changelog" :
     {
+		"1.1.9"   : [ "Major update." ],
 		"1.1.8"   : [ "Added few upgraded buildings graphics from old Raven's Upgrades mod (made by Xardas33)" ],
 		"1.1.7"   : [ "Added Chinese translation" ],
 		"1.1.6"   : [ "Added Russian translation" ],
@@ -145,6 +146,11 @@
 		"config/town-screen/stronghold/factions"
 	],
 	
+	"artifacts" :
+	[
+		"config/artifacts/cotuk_fix"
+	],
+
 	"settings" : {
 		"combat": {
 			"badLuckDice" : [ 12, 6, 4 ]
