@@ -12,7 +12,7 @@
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4" ], [ "shipyard", "special1" ] ],
 				[ [ "special2" ], [ "horde1", "horde1Upgr", "horde2" ] ],
 				[ [ "dwellingLvl1", "dwellingUpLvl1", "dwellingUp2Lvl1" ], [ "dwellingLvl2", "dwellingUpLvl2", "dwellingUp2Lvl2" ], [ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ], [ "dwellingLvl4", "dwellingUpLvl4", "dwellingUp2Lvl4"	] ],
-				[ [ "dwellingLvl5", "dwellingUpLvl5", "dwellingUp2Lvl5" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ], [ "dwellingLvl7B", "dwellingUpLvl7B" ] ]
+				[ [ "dwellingLvl5", "dwellingUpLvl5", "dwellingUp2Lvl5" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ], [ "dwellingLvl7B", "dwellingUpLvl7B", "dwellingUp2Lvl7B" ] ]
 			],
 			"creatures" :
 			[
@@ -22,7 +22,7 @@
 				[ "swordsman", "crusader", "tumInquisitor" ],
 				[ "monk", "zealot", "tumHighPriest" ],
 				[ "cavalier", "champion", "tumHolyChampion" ],
-				[ "angel", "archangel", "supremeArchangel", "mdtTemplar", "mdtPaladin" ]
+				[ "angel", "archangel", "supremeArchangel", "mdtTemplar", "mdtPaladin", "mdtRoyalPaladin" ]
 			],
 			
 			"structures" :
@@ -34,19 +34,20 @@
 				"villageHall":		{ "y" : 218 },
 				"horde1":			{ "z" : -2 },
 				"horde1Upgr":		{ "z" : -2 },
-				"horde2":		 	{ "animation" : "TBCSHRD2.def", "x" : 76,  "y" : 35,  "z" : -1, "border" : "TOCSGR2H.bmp", "area" : "TZCSGR2H.bmp", "hidden" : true, "builds" : "horde1Upgr" },
+				"horde2":		 	{ "animation" : "town-screen/castle/TBCSHRD3.def", "x" : 76,  "y" : 1, "z" : -1, "border" : "town-screen/castle/borders/TOCSGR2HU.png", "area" : "town-screen/castle/areas/TZCSGR2HU.png", "hidden" : true, "builds" : "horde1Upgr" },
 				"dwellingLvl3":		{ "z" : -2 },
 				"dwellingUpLvl3":	{ "z" : -2 },
 				"dwellingUpLvl1":	{ "z" : -2 },
-				"dwellingUp2Lvl1": 	{ "animation" : "TBCSUP_0.def", "x" : 304, "y" : 65,  "border" : "TOCSPIK2.bmp", "area" : "TZCSPIK2.bmp" },
-				"dwellingUp2Lvl2":	{ "animation" : "TBCSUP_1.def", "x" : 360, "y" : 115, "border" : "TOCSCRS2.bmp", "area" : "TZCSCRS2.bmp" },
-				"dwellingUp2Lvl3":	{ "animation" : "TBCSUP_2.def", "x" : 76,  "y" : 35,  "z" : -1, "border" : "TOCSGR2N.bmp", "area" : "TZCSGR2N.bmp" },
-				"dwellingUp2Lvl4":	{ "animation" : "TBCSUP_3.def", "x" : 176, "y" : 85,  "border" : "TOCSSWD2.bmp", "area" : "TZCSSWD2.bmp" },
-				"dwellingUp2Lvl5":	{ "animation" : "TBCSUP_4.def", "x" : 563, "y" : 173, "z" : 1,  "border" : "TOCSMON2.bmp", "area" : "TZCSMON2.bmp" },
-				"dwellingUp2Lvl6":	{ "animation" : "TBCSUP_5.def", "x" : 160, "y" : 190, "z" : -1, "border" : "TOCSCAV2.bmp", "area" : "TZCSCAV2.bmp" },
-				"dwellingUp2Lvl7":	{ "animation" : "TBCSUP_6.def", "x" : 303, "y" : 0,   "z" : -1, "border" : "TOCSANG2.bmp", "area" : "TZCSANG2.bmp" },
+				"dwellingUp2Lvl1": 	{ "animation" : "town-screen/castle/TBCSUP2_0.def", "x" : 304, "y" : 51, "border" : "town-screen/castle/borders/TOCSPIK2U.png", "area" : "town-screen/castle/areas/TZCSPIK2U.png" },
+				"dwellingUp2Lvl2": 	{ "animation" : "town-screen/castle/TBCSUP2_1", "x" : 360, "y" : 102, "border" : "town-screen/castle/borders/TOCSCRS2U.png", "area" : "town-screen/castle/areas/TZCSCRS2U.png" },
+				"dwellingUp2Lvl3": 	{ "animation" : "town-screen/castle/TBCSUP2_2", "x" : 76, "y" : 1, "border" : "town-screen/castle/borders/TOCSGR2NU.png", "area" : "town-screen/castle/areas/TZCSGR2NU.png" },
+				"dwellingUp2Lvl4": 	{ "animation" : "town-screen/castle/TBCSUP2_3", "x" : 176, "y" : 72, "border" : "town-screen/castle/borders/TOCSSWD2U.png", "area" : "town-screen/castle/areas/TZCSSWD2U.png" },
+				"dwellingUp2Lvl5": 	{ "animation" : "town-screen/castle/TBCSUP2_4", "x" : 563, "y" : 149, "z" : 1, "border" : "town-screen/castle/borders/TOCSMON2U.png", "area" : "town-screen/castle/areas/TZCSMON2U.png" },
+				"dwellingUp2Lvl6": 	{ "animation" : "town-screen/castle/TBCSUP2_5", "x" : 160, "y" : 184, "z" : -1, "border" : "town-screen/castle/borders/TOCSCAV2U.png", "area" : "town-screen/castle/areas/TZCSCAV2U.png" },
+				"dwellingUp2Lvl7": 	{ "animation" : "town-screen/castle/TBCSUP2_6", "x" : 303, "y" : 0, "z" : -1, "border" : "town-screen/castle/borders/TOCSANG2U.png", "area" : "town-screen/castle/areas/TZCSANG2U.png" },
 				"dwellingLvl7B":    {"border" : "town-screen/castle/buildings-border/TBCAlt7border.bmp", "area" : "town-screen/castle/buildings-area/TBCAlt7area.bmp", "animation" : "town-screen/castle/TBCAlt7.def", "x" : 0, "y" : 0, "z" : 1 },
-				"dwellingUpLvl7B": 	{ "border" : "town-screen/castle/buildings-border/TBCAlt7UPborder.bmp", "area" : "town-screen/castle/buildings-area/TBCAlt7UParea.bmp", "animation" : "town-screen/castle/TBCAlt7UP.def", "x" : 0, "y" : 0, "z" : 1 }
+				"dwellingUpLvl7B": 	{ "border" : "town-screen/castle/buildings-border/TBCAlt7UPborder.bmp", "area" : "town-screen/castle/buildings-area/TBCAlt7UParea.bmp", "animation" : "town-screen/castle/TBCAlt7UP.def", "x" : 0, "y" : 0, "z" : 1 },
+				"dwellingUp2Lvl7B": 	{ "border" : "TBCAlt7UPupborder.bmp", "area" : "TBCAlt7UPuparea.bmp", "animation" : "town-screen/castle/TBCSCATUP2.def", "x" : 0, "y" : 0, "z" : 1 }
 			},	
 			
 			"buildings" :
@@ -86,38 +87,10 @@
 						[ "noneOf", [ "dwellingLvl7B" ] ]
 					]
 				},
-				"dwellingUpLvl1" :
-				{
-					"name" : "Adv. Guardhouse"
-				},
-				"dwellingUpLvl2" :
-				{
-					"name" : "Adv. Archers' Tower"
-				},
-				"dwellingUpLvl3" :
-				{
-					"name" : "Adv. Griffin Tower"
-				},
-				"dwellingUpLvl4" :
-				{
-					"name" : "Adv. Barracks"
-				},
-				"dwellingUpLvl5" :
-				{
-					"name" : "Adv. Monastery"
-				},
-				"dwellingUpLvl6" :
-				{
-					"name" : "Adv. Training Grounds"
-				},
-				"dwellingUpLvl7" :
-				{
-					"name" : "Adv. Portal of Glory"
-				},
 				"dwellingUp2Lvl1" :
 				{
 					"description" : "The Guardhouse allows you to recruit Royal Halberdiers.",
-					"name" : "{Upg. Guardhouse}",	
+					"name" : "{Adv. Guardhouse}",	
 					"cost" :
 					{
 						"ore" :  15,
@@ -135,7 +108,7 @@
 				"dwellingUp2Lvl2" : 
 				{
 					"description" : "The Archers' Tower allows you to recruit Crossbowmen.",
-					"name" : "{Upg. Archers' Tower}",
+					"name" : "{Adv. Archers' Tower}",
 				
 					"cost" :
 					{
@@ -155,7 +128,7 @@
 				"dwellingUp2Lvl3" : 
 				{
 					"description" : "The Griffin Tower allows you to recruit Cesar Griffins.",
-					"name" : "{Upg. Griffin Tower}",
+					"name" : "{Adv. Griffin Tower}",
 					"cost" :
 					{
 						"ore":     10,
@@ -173,7 +146,7 @@
 				"dwellingUp2Lvl4" : 
 				{
 					"description" : "The Barracks allow you to recruit Inquisitors.",
-					"name" : "{Upg. Barracks}",
+					"name" : "{Adv. Barracks}",
 				
 					"cost" :
 					{
@@ -193,7 +166,7 @@
 				"dwellingUp2Lvl5" : 
 				{
 					"description" : "The Monastery allows you to recruit High Priests.",
-					"name" : "{Upg. Monastery}",
+					"name" : "{Adv. Monastery}",
 					"cost" :
 					{
 						"wood":    7,
@@ -219,7 +192,7 @@
 				"dwellingUp2Lvl6" : 
 				{
 					"description" : "The Training Grounds allow you to recruit Holy Champions.",
-					"name" : "{Upg. Training Grounds}",
+					"name" : "{Adv. Training Grounds}",
 					"cost" :
 					{
 						"wood": 30,
@@ -235,7 +208,7 @@
 				"dwellingUp2Lvl7" : 
 				{ 
 					"description" : "The Portal of Glory allows you to recruit Supreme Archangels.",
-					"name" : "{Upg. Portal of Glory}",
+					"name" : "{Adv. Portal of Glory}",
 					"cost" :
 					{
 						"mercury": 20,
@@ -282,6 +255,25 @@
 					},
 					"id" : 64,
 					"upgrades" : "dwellingLvl7B"
+				},
+				"dwellingUp2Lvl7B" :
+				{
+					"name" : "{Adv. Cathedral}",
+					"description" : "The Cathedral allows you to recruit Royal Paladins.",
+					"cost" : {
+						"gold" : 5000,
+						"wood" : 5,
+						"ore" : 5,
+						"gems" : 5
+					},
+					"requires" : 
+					[ 
+						"allOf",	
+							["castle"],
+							["dwellingUp2Lvl6"] 
+					],
+					"id" : 71,
+					"upgrades" : "dwellingUpLvl7B"
 				}
 			}
 		}

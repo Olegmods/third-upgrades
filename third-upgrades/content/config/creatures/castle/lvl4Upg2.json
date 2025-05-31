@@ -57,7 +57,7 @@
 			"extraAttack" :
 			{
 				"type": "ADDITIONAL_ATTACK",
-				"val" : 1
+				"val" : 2
 			}
 		},
 		"stackExperience" :

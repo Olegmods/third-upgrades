@@ -40,7 +40,7 @@
 			},
 			"missile" :
 			{
-				"projectile": "PMAGEX.DEF",
+				"projectile": "PMEDUSX.DEF",
 				"attackClimaxFrame" : 7,
 				"offset" :
 				{

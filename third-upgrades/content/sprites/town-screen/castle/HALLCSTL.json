@@ -2,7 +2,7 @@
     "basepath" : "town-screen/castle/frames/",
 	"images" :
 	[
-		{ "frame" : 23, "file" : "ThCsGr3H"},
+		{ "frame" : 24, "file" : "ThCsGr3H"},
 		{ "frame" : 44, "file" : "ThCsPik3"},
 		{ "frame" : 45, "file" : "ThCsCrs3"},
 		{ "frame" : 46, "file" : "ThCsGr3"},
