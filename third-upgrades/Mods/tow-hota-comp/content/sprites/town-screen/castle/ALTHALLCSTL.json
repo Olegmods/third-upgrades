@@ -2,7 +2,7 @@
     "basepath" : "town-screen/castle/frames/",
 	"images" :
 	[
-		{ "frame" : 23, "file" : "ThCsGr3H"},
+		{ "frame" : 24, "file" : "ThCsGr3H"},
 		{ "frame" : 44, "file" : "ThCsPik3"},
 		{ "frame" : 45, "file" : "ThCsCrs3"},
 		{ "frame" : 46, "file" : "ThCsGr3"},
@@ -12,6 +12,7 @@
 		{ "frame" : 51, "file" : "ThCsPik3"},
 		{ "frame" : 50, "file" : "ThCsAng3"},
 		{ "frame" : 57, "file" : "TBCAlt.png"},
-		{ "frame" : 64, "file" : "TBCAlt7UP.png"}
+		{ "frame" : 64, "file" : "TBCAlt7UP.png"},
+		{ "frame" : 71, "file" : "TBCAlt7UPup.png"}
 	]
 }

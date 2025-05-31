@@ -10,14 +10,14 @@
 				"horde1":         { "z" : -2},
 				"horde1Upgr":     { "z" : -2 },
 				"horde1Upgr2":    	{ "animation" : "town-screen/rampart/TBRMHRD1U.def", "x" : 0,   "y" : 143, "z" : -2, "border" : "town-screen/rampart/borders/TORDWF2HU.bmp", "area" : "town-screen/rampart/areas/TZRTRE1U.bmp", "hidden" : true, "builds" : "horde1Upgr" },
-				"horde2Upgr2":     	{ "animation" : "town-screen/rampart/TBRMHRD2U.def", "x" : 47,  "y" : 142, "z" : -2, "border" : "town-screen/rampart/borders/TORTRE2HU.bmp", "area" : "town-screen/rampart/areas/TORDWF2U.bmp", "hidden" : true, "builds" : "horde2" },			
+				"horde2Upgr2":{ "animation" : "town-screen/rampart/TBRMHRD2U.def", "x" : 47,  "y" : 142, "z" : -2, "border" : "town-screen/rampart/borders/TORTRE2HU.bmp", "area" : "town-screen/rampart/areas/TORDWF2U.bmp", "hidden" : true, "builds" : "horde2" },
 				"dwellingLvl2":   { "z" : -2 },
 				"dwellingLvl3":   { "z" : -1 },			
 				"dwellingUpLvl2": { "z" : -2 },
 				"dwellingUpLvl3": { "z" : -1 },			
 				"dwellingUp2Lvl1": 	{ "animation" : "town-screen/rampart/TBRMUP2_0.def", "x" : 0, "y" : 216, "z" : 2, "border" : "town-screen/rampart/borders/TORCEN2AU.bmp", "area": "town-screen/rampart/areas/TZRCEN2AU.bmp" },
 				"dwellingUp2Lvl2": 	{ "animation" : "town-screen/rampart/TBRMUP2_1.def", "x" : 0, "y" : 143, "border" : "town-screen/rampart/borders/TORDWF2U.bmp",  "area" : "town-screen/rampart/areas/TZRDWF2U.bmp" },
-				"dwellingUp2Lvl3":	{ "animation" : "town-screen/rampart/TBRMUP2_2.def", "x" : 665, "y" : 101, "border" : "town-screen/rampart/borders/TORELF2U.bmp",  "area" : "town-screen/rampart/areas/TZRELF2U.bmp" },
+				"dwellingUp2Lvl3":	{ "animation" : "town-screen/rampart/TBRMUP2_2.def", "x" : 665, "y" : 101, "z" : -1, "border" : "town-screen/rampart/borders/TORELF2U.bmp",  "area" : "town-screen/rampart/areas/TZRELF2U.bmp" },
 				"dwellingUp2Lvl4":	{ "animation" : "town-screen/rampart/TBRMUP2_3.def", "x" : 287, "y" : 23,  "z" : -1, "border" : "town-screen/rampart/borders/TORPEG2AU.bmp",  "area" : "town-screen/rampart/areas/TZRPEG2AU.bmp" },
 				"dwellingUp2Lvl5":	{ "animation" : "town-screen/rampart/TBRMUP2_4.def", "x" : 63,  "y" : 146, "z" : -1, "border" : "town-screen/rampart/borders/TORTRE2U.bmp",  "area" : "town-screen/rampart/areas/TZRTRE2U.bmp" },
 				"dwellingUp2Lvl6":	{ "animation" : "town-screen/rampart/TBRMUP2_5.def", "x" : 362, "y" : 90,  "z" : -2, "border" : "town-screen/rampart/borders/TORUNI2U.bmp",  "area" : "town-screen/rampart/areas/TZRUNI2U.bmp" },
@@ -58,38 +58,10 @@
 					],
 					"mode" : "auto" 
 				},
-				"dwellingUpLvl1":
-				{
-					"name" : "Adv. Centaur Stables"
-				},
-				"dwellingUpLvl2":
-				{
-					"name" : "Adv. Dwarf Cottage"
-				},
-				"dwellingUpLvl3":
-				{
-					"name" : "Adv. Homestead"
-				},
-				"dwellingUpLvl4":
-				{
-				"name" : "Adv. Enchanted Springs"
-				},
-				"dwellingUpLvl5":
-				{
-					"name" : "Adv. Dendroid Arches"
-				},
-				"dwellingUpLvl6":
-				{
-					"name" : "Adv. Unicorn Glade"
-				},
-				"dwellingUpLvl7":
-				{
-					"name" : "Adv. Dragon Cliffs"
-				},
 				"dwellingUp2Lvl1":
 				{
 					"description" : "The Centaur Stables allow you to recruit Centaur Generals",
-					"name" : "{Upg. Centaur Stables}",
+					"name" : "{Adv. Centaur Stables}",
 					"cost" :
 					{
 						"wood": 15,
@@ -123,7 +95,7 @@
 				"dwellingUp2Lvl2":
 				{
 					"description" : "The Dwarf Cottage allows you to recruit Berserker Dwarves.",
-					"name" : "{Upg. Dwarf Cottage}", 
+					"name" : "{Adv. Dwarf Cottage}", 
 					"cost" :
 					{
 						"wood": 10,
@@ -140,8 +112,8 @@
 				},
 				"dwellingUp2Lvl3":
 				{
-					"description" : "The Homestead allows you to recruit Elven Sharpshooters",
-					"name" : "{Upg. Homestead}",
+					"description" : "The Homestead allows you to recruit Noble Elves",
+					"name" : "{Adv. Homestead}",
 					
 					"cost" :
 					{
@@ -160,7 +132,7 @@
 				"dwellingUp2Lvl4":
 				{
 					"description" : "The Enchanted Spring allows you to recruit Golden Pegasi.",
-					"name" : "{Upg. Enchanted Spring}",
+					"name" : "{Adv. Enchanted Spring}",
 					
 					"cost" :
 					{
@@ -177,7 +149,7 @@
 				"dwellingUp2Lvl5":
 				{
 					"description" : "The Dendroid Arches allow you to recruit Elder Dendroids.",
-					"name" : "{Upg. Dendroid Arches}",
+					"name" : "{Adv. Dendroid Arches}",
 					
 					"cost" :
 					{
@@ -210,7 +182,7 @@
 				"dwellingUp2Lvl6":
 				{
 					"description" : "The Unicorn Glade allows you to recruit Legendary Unicorns.",
-					"name" : "{Upg. Unicorn Glade}",
+					"name" : "{Adv. Unicorn Glade}",
 					
 					"cost" :
 					{
@@ -232,7 +204,7 @@
 				"dwellingUp2Lvl7":
 				{
 					"description" : "The Dragon Cliffs allow you to recruit Diamond Dragons.",
-					"name" : "{Upg. Dragon Cliffs}",
+					"name" : "{Adv. Dragon Cliffs}",
 					
 					"cost" :
 					{

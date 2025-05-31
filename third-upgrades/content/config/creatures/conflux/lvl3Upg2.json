@@ -1,8 +1,8 @@
 {
 	"tumLifeElemental": {
 		"name" : {
-			"singular" : "Life Elemental",
-			"plural" : "Life Elementals"
+			"singular" : "Cryogenic Elemental",
+			"plural" : "Cryogenic Elementals"
 		},
 		"faction" : "conflux",
 		"level" : 3,

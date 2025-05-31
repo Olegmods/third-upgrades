@@ -76,38 +76,10 @@
 					"id" : 23,
 					"mode" : "auto"
 				},
-				"dwellingUpLvl1" :
-				{
-					"name" : "Adv. Guardhouse"
-				},
-				"dwellingUpLvl2" :
-				{
-					"name" : "Adv. Archers' Tower"
-				},
-				"dwellingUpLvl3" :
-				{
-					"name" : "Adv. Griffin Tower"
-				},
-				"dwellingUpLvl4" :
-				{
-					"name" : "Adv. Barracks"
-				},
-				"dwellingUpLvl5" :
-				{
-					"name" : "Adv. Monastery"
-				},
-				"dwellingUpLvl6" :
-				{
-					"name" : "Adv. Training Grounds"
-				},
-				"dwellingUpLvl7" :
-				{
-					"name" : "Adv. Portal of Glory"
-				},
 				"dwellingUp2Lvl1" :
 				{
 					"description" : "The Guardhouse allows you to recruit Royal Halberdiers.",
-					"name" : "{Upg. Guardhouse}",	
+					"name" : "{Adv. Guardhouse}",	
 					"cost" :
 					{
 						"ore" :  15,
@@ -125,7 +97,7 @@
 				"dwellingUp2Lvl2" : 
 				{
 					"description" : "The Archers' Tower allows you to recruit Crossbowmen.",
-					"name" : "{Upg. Archers' Tower}",
+					"name" : "{Adv. Archers' Tower}",
 				
 					"cost" :
 					{
@@ -145,7 +117,7 @@
 				"dwellingUp2Lvl3" : 
 				{
 					"description" : "The Griffin Tower allows you to recruit Cesar Griffins.",
-					"name" : "{Upg. Griffin Tower}",
+					"name" : "{Adv. Griffin Tower}",
 					"cost" :
 					{
 						"ore":     10,
@@ -163,7 +135,7 @@
 				"dwellingUp2Lvl4" : 
 				{
 					"description" : "The Barracks allow you to recruit Inquisitors.",
-					"name" : "{Upg. Barracks}",
+					"name" : "{Adv. Barracks}",
 				
 					"cost" :
 					{
@@ -183,7 +155,7 @@
 				"dwellingUp2Lvl5" : 
 				{
 					"description" : "The Monastery allows you to recruit High Priests.",
-					"name" : "{Upg. Monastery}",
+					"name" : "{Adv. Monastery}",
 					"cost" :
 					{
 						"wood":    7,
@@ -209,7 +181,7 @@
 				"dwellingUp2Lvl6" : 
 				{
 					"description" : "The Training Grounds allow you to recruit Holy Champions.",
-					"name" : "{Upg. Training Grounds}",
+					"name" : "{Adv. Training Grounds}",
 					"cost" :
 					{
 						"wood": 30,
@@ -225,7 +197,7 @@
 				"dwellingUp2Lvl7" : 
 				{ 
 					"description" : "The Portal of Glory allows you to recruit Supreme Archangels.",
-					"name" : "{Upg. Portal of Glory}",
+					"name" : "{Adv. Portal of Glory}",
 					"cost" :
 					{
 						"mercury": 20,

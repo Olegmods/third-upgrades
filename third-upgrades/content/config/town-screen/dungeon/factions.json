@@ -27,15 +27,15 @@
 			"structures" :
 			{
 				"extraCapitol":{ "animation" : "town-screen/dungeon/TBDGEXT5.def", "x" : 60, "y" : 110,  "z" : 0 },
-				"horde2": { "animation" : "TBDNHRD2.def", "x" : 0, "y" : 300, "z" : 2, "border" : "TODTR2HA.bmp", "area" : "TZDTR2HA.bmp", "hidden" : true, "builds" : "horde1Upgr" },
+				"horde2": { "animation" : "town-screen/dungeon/TBDNHRD3.def", "x" : 0, "y" : 283, "z" : 2, "border" : "town-screen/dungeon/borders/TODTR3HA.bmp", "area" : "town-screen/dungeon/areas/TZDTR3HA.bmp", "hidden" : true, "builds" : "horde1Upgr" },
 				"special4":       { "z" : 1},
-				"dwellingUp2Lvl1": { "animation" : "TBDNUP_0.def", "x" : 0,   "y" : 300, "z" : 2,  "border" : "TODTRG2A.bmp", "area" : "TZDTRG2A.bmp" },
-				"dwellingUp2Lvl2": { "animation" : "TBDNUP_1.def", "x" : 0,   "y" : 26,  "border" : "TODHAR2.bmp",  "area" : "TZDHAR2.bmp" },
-				"dwellingUp2Lvl3": { "animation" : "TBDNUP_2.def", "x" : 118, "y" : 256, "z" : 1,  "border" : "TODBEH2A.bmp", "area" : "TZDBEH2A.bmp" },
-				"dwellingUp2Lvl4": { "animation" : "TBDNUP_3.def", "x" : 300, "y" : 29,  "z" : -1, "border" : "TODMED2.bmp",  "area" : "TZDMED2.bmp" },
-				"dwellingUp2Lvl5": { "animation" : "TBDNUP_4.def", "x" : 519, "y" : 172, "z" : 1,  "border" : "TODMIN2.bmp",  "area" : "TZDMIN2.bmp" },
-				"dwellingUp2Lvl6": { "animation" : "TBDNUP_5.def", "x" : 270, "y" : 253, "z" : -1, "border" : "TODMAN2.bmp",  "area" : "TZDMAN2.bmp" },
-				"dwellingUp2Lvl7": { "animation" : "TBDNUP_6.def", "x" : 550, "y" : 0,   "z" : -1, "border" : "TODDRA2A.bmp", "area" : "TZDDRA2A.bmp" }
+				"dwellingUp2Lvl1": { "animation" : "town-screen/dungeon/TBDNUP2_0.def", "x" : 0,   "y" : 283, "z" : 2,  "border" : "town-screen/dungeon/borders/TODTRG3A.bmp", "area" : "town-screen/dungeon/areas/TZDTRG3A.bmp" },
+				"dwellingUp2Lvl2": { "animation" : "town-screen/dungeon/TBDNUP2_1.def", "x" : 0,   "y" : 26,  "border" : "town-screen/dungeon/borders/TODHAR3.bmp",  "area" : "town-screen/dungeon/areas/TZDHAR3.bmp" },
+				"dwellingUp2Lvl3": { "animation" : "town-screen/dungeon/TBDNUP2_2.def", "x" : 118, "y" : 256, "z" : 1,  "border" : "TODBEH2A.bmp", "area" : "TZDBEH2A.bmp" },
+				"dwellingUp2Lvl4": { "animation" : "town-screen/dungeon/TBDNUP2_3.def", "x" : 300, "y" : 29,  "z" : -1, "border" : "TODMED2.bmp",  "area" : "TZDMED2.bmp" },
+				"dwellingUp2Lvl5": { "animation" : "town-screen/dungeon/TBDNUP2_4.def", "x" : 519, "y" : 172, "z" : 1,  "border" : "TODMIN2.bmp",  "area" : "TZDMIN2.bmp" },
+				"dwellingUp2Lvl6": { "animation" : "town-screen/dungeon/TBDNUP2_5.def", "x" : 270, "y" : 253, "z" : -1, "border" : "town-screen/dungeon/borders/TODMAN3.bmp",  "area" : "town-screen/dungeon/areas/TZDMAN3.bmp" },
+				"dwellingUp2Lvl7": { "animation" : "town-screen/dungeon/TBDNUP2_6.def", "x" : 550, "y" : 0,   "z" : -1, "border" : "town-screen/dungeon/borders/TODDRA3A.bmp", "area" : "town-screen/dungeon/areas/TZDDRA3A.bmp" }
 			
 			},
 
@@ -55,7 +55,7 @@
 				},
 				"horde2" :
 				{
-					"description" : "Mushroom Rings increase Phosphorescent Troglodytes production by 7 per week.",
+					"description" : "The Mushroom Rings increase Phosphorescent Troglodytes production by 7 per week.",
 					"name" : "{Mushroom Rings}",
 					
 					"cost" :
@@ -70,38 +70,10 @@
 					],
 					"mode" : "auto"			
 				},
-				"dwellingUpLvl1":
-				{
-					"name" : "Adv. Warren"
-				},
-				"dwellingUpLvl2":
-				{
-					"name" : "Adv. Harpy Loft"
-				},
-				"dwellingUpLvl3":
-				{
-					"name" : "Adv. Pillar of Eyes"
-				},
-				"dwellingUpLvl4":
-				{
-					"name" : "Adv. Chapel of Stilled Voices"
-				},
-				"dwellingUpLvl5":
-				{
-					"name" : "Adv. Labyrinth"
-				},
-				"dwellingUpLvl6":
-				{
-					"name" : "Adv. Manticore Lair"
-				},
-				"dwellingUpLvl7":
-				{
-					"name" : "Adv. Dragon Cave"
-				},
 				"dwellingUp2Lvl1" :
 				{
 					"description" : "The Warren allows you to recruit Phosphorescent Troglodytes.",
-					"name" : "{Upg. Warren}",
+					"name" : "{Adv. Warren}",
 				
 					"cost" :
 					{
@@ -121,7 +93,7 @@
 				{
 				
 					"description" : "The Harpy Loft allows you to recruit Harpy Sanguinaries.",
-					"name" : "{Upg. Harpy Loft}",
+					"name" : "{Adv. Harpy Loft}",
 					
 					"cost" :
 					{
@@ -142,7 +114,7 @@
 				{
 				
 					"description" : "The Pillar of Eyes allows you to recruit Monstrous Eyes.",
-					"name" : "{Upg. Pillar of Eyes}",
+					"name" : "{Adv. Pillar of Eyes}",
 				
 					"cost" :
 					{
@@ -167,7 +139,7 @@
 				{
 				
 					"description" : "The Chapel of Stilled Voices allows you to recruit Medusa Empresses.",
-					"name" : "{Upg. Chapel of Stilled Voices}",
+					"name" : "{Adv. Stilled Voices}",
 				
 					"cost" :
 					{
@@ -183,7 +155,7 @@
 				{
 				
 					"description" : "The Labyrinth allows you to recruit Black Minotaurs.",
-					"name" : "{Upg. Labyrinth}",
+					"name" : "{Adv. Labyrinth}",
 				
 					"cost" :
 					{
@@ -202,7 +174,7 @@
 				{ 
 				
 					"description" : "The Manticore Lair allows you to recruit Chmieras.",
-					"name" : "{Upg. Manticore Lair}",
+					"name" : "{Adv. Manticore Lair}",
 				
 					"cost" :
 					{
@@ -224,7 +196,7 @@
 				{ 
 				
 					"description" : "The Dragon Cave allows you to recruit Darkness Dragons.",
-					"name" : "{Upg. Dragon Cave}",
+					"name" : "{Adv. Dragon Cave}",
 				
 					"cost" :
 					{

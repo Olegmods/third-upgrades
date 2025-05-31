@@ -11,7 +11,7 @@
 				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special3" ], [ "special4" ] ],
 				[ [ "special1" ], [ "special2" ], [ "horde1", "horde1Upgr", "horde1Upgr2" ] ],
 				[ [ "dwellingLvl1", "dwellingUpLvl1", "dwellingUp2Lvl1" ], [ "dwellingLvl2", "dwellingUpLvl2", "dwellingUp2Lvl2" ], [ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ], [ "dwellingLvl4", "dwellingUpLvl4", "dwellingUp2Lvl4" ] ],
-				[ [ "dwellingLvl5", "dwellingUpLvl5", "dwellingUp2Lvl5" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ], [ "dwellingLvl7B", "dwellingUpLvl7B" ] ]
+				[ [ "dwellingLvl5", "dwellingUpLvl5", "dwellingUp2Lvl5" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ], [ "dwellingLvl7B", "dwellingUpLvl7B", "dwellingUp2Lvl7B" ] ]
 			],
 			"creatures" :
 			[
@@ -21,7 +21,7 @@
 				["mage", "archMage", "tumSupremeArchMage"],
 				["genie", "masterGenie", "tumArcaneGenie"],
 				["naga", "nagaQueen", "tumNagaEmpress"],
-				["giant", "titan", "lordOfThunder", "mdtDrakeGolem", "mdtDragonGolem"]
+				["giant", "titan", "lordOfThunder", "mdtDrakeGolem", "mdtDragonGolem", "mdtSilverDragonGolem"]
 			],
 
 			"structures" :
@@ -29,16 +29,17 @@
 				"extraCapitol":{ "animation" : "town-screen/tower/TBTWEXT5.def", "x" : 430, "y" : 28,  "z" : 0 },				
 				"horde1":         { "y" : 46 },
 				"horde1Upgr":     { "y" : 27 },
-				"horde1Upgr2":    	  { "animation" : "TBTWHRD2.def", "x" : 0, "y" : 28, "border" : "TOTGAR2H.bmp", "area" : "TZTGAR2H.bmp", "hidden" : true, "builds" : "horde1Upgr" },
-				"dwellingUp2Lvl1": { "animation" : "TBTWUP_0.def", "x" : 446, "y" : 221, "z" : 1,  "border" : "TOTGRM2A.bmp", "area" : "TZTGRM2A.bmp" },
-				"dwellingUp2Lvl2": { "animation" : "TBTWUP_1.def", "x" : 4,   "y" : 28,  "border" : "TOTGAR2.bmp",  "area" : "TZTGAR2.bmp" },				 
-				"dwellingUp2Lvl3": { "animation" : "TBTWUP_2.def", "x" : 209, "y" : 177, "z" : 1,  "border" : "TOTGOL2A.bmp", "area" : "TZTGOL2A.bmp" },
-				"dwellingUp2Lvl4": { "animation" : "TBTWUP_3.def", "x" : 613, "y" : 74,  "border" : "TOTMAG2.bmp",  "area" : "TZTMAG2.bmp" },
-				"dwellingUp2Lvl5": { "animation" : "TBTWUP_4.def", "x" : 511, "y" : 8,   "border" : "TOTGEN2.bmp",  "area" : "TZTGEN2.bmp" },
-				"dwellingUp2Lvl6": { "animation" : "TBTWUP_5.def", "x" : 681, "y" : 157, "z" : 2,  "border" : "TOTNAG2.bmp",  "area" : "TZTNAG2.bmp" },
-				"dwellingUp2Lvl7": { "animation" : "TBTWUP_6.def", "x" : 75,  "y" : 91,  "z" : -1, "border" : "TOTTIT2.bmp",  "area" : "TZTTIT2.bmp" },
+				"horde1Upgr2":     	{ "animation" : "town-screen/tower/TBTWHRD2U.def", "x" : 0,   "y" : 8,  "border" : "town-screen/tower/borders/TOTGAR2HU.bmp", "area" : "town-screen/tower/areas/TZTGAR2HU.bmp", "hidden" : true, "builds" : "horde1Upgr" },
+				"dwellingUp2Lvl1": 	{ "animation" : "town-screen/tower/TBTWUP2_0.def", "x" : 440, "y" : 221, "z" : 1,  "border" : "town-screen/tower/borders/TOTGRM2AU.bmp", "area" : "town-screen/tower/areas/TZTGRM2AU.bmp" },
+				"dwellingUp2Lvl2": 	{ "animation" : "town-screen/tower/TBTWUP2_1.def", "x" : 4,   "y" : 8,  "border" : "town-screen/tower/borders/TOTGAR2U.bmp",  "area" : "town-screen/tower/areas/TZTGAR2U.bmp" },
+				"dwellingUp2Lvl3": 	{ "animation" : "town-screen/tower/TBTWUP2_2.def", "x" : 209, "y" : 177, "z" : 1,  "border" : "town-screen/tower/borders/TOTGOL2AU.bmp", "area" : "town-screen/tower/areas/TZTGOL2AU.bmp" },
+				"dwellingUp2Lvl4": 	{ "animation" : "town-screen/tower/TBTWUP2_3.def", "x" : 610, "y" : 37,  "border" : "town-screen/tower/borders/TOTMAG2U.bmp",  "area" : "town-screen/tower/areas/TZTMAG2U.bmp" },
+				"dwellingUp2Lvl5": 	{ "animation" : "town-screen/tower/TBTWUP2_4.def", "x" : 511, "y" : 8,   "border" : "town-screen/tower/borders/TOTGEN2U.bmp",  "area" : "town-screen/tower/areas/TZTGEN2U.bmp" },
+				"dwellingUp2Lvl6": { "animation" : "town-screen/tower/TBTWUP2_5.def", "x" : 681, "y" : 118, "z" : 2,  "border" : "town-screen/tower/borders/TOTNag2U.bmp",  "area" : "town-screen/tower/areas/TZTNag2U.bmp" },
+				"dwellingUp2Lvl7": { "animation" : "town-screen/tower/TBTWUP2_6.def", "x" : 75,  "y" : 7,  "z" : -1, "border" : "town-screen/tower/borders/TOTTit2U.bmp",  "area" : "town-screen/tower/areas/TZTTit2U.bmp" },
 				"dwellingLvl7B": { "border" : "town-screen/tower/buildings-border/TBTwA7un.bmp", "area" : "town-screen/tower/buildings-area/TATwA7un.bmp", "animation" : "town-screen/tower/TBDRGM1", "x" : 75, "y" : 114, "z" : -1 },
-				"dwellingUpLvl7B": { "border" : "town-screen/tower/buildings-border/TBTwA7up.bmp", "area" : "town-screen/tower/buildings-area/TATwA7up.bmp", "animation" : "town-screen/tower/TBDRGM2", "x" : 75, "y" : 114, "z" : -1 }				
+				"dwellingUpLvl7B": { "border" : "town-screen/tower/buildings-border/TBTwA7up.bmp", "area" : "town-screen/tower/buildings-area/TATwA7up.bmp", "animation" : "town-screen/tower/TBDRGM2", "x" : 75, "y" : 114, "z" : -1 },
+				"dwellingUp2Lvl7B": { "border" : "TBTwA7upup.bmp", "area" : "TATwA7upup.bmp", "animation" : "town-screen/tower/TBCSFORUP2", "x" : 75, "y" : 114, "z" : -1 }
 			},
 
 			"buildings" :
@@ -62,38 +63,10 @@
 						[ "noneOf", [ "dwellingLvl7B" ] ]
 					]
 				},
-				"dwellingUpLvl1":
-				{
-					"name" : "Adv. Workshop"
-				},
-				"dwellingUpLvl2":
-				{
-					"name" : "Adv. Parapet"
-				},
-				"dwellingUpLvl3":
-				{
-					"name" : "Adv. Golem Factory"
-				},
-				"dwellingUpLvl4":
-				{
-					"name" : "Adv. Mage Tower"
-				},
-				"dwellingUpLvl5":
-				{
-					"name" : "Adv. Altar of Wishes"
-				},
-				"dwellingUpLvl6":
-				{
-					"name" : "Adv. Golden Pavilion"
-				},
-				"dwellingUpLvl7":
-				{
-					"name" : "Adv. Cloud Temple"
-				},
 				"dwellingUp2Lvl1":
 				{
 					"description" : "The Workshop allows you to recruit Grandmaster Gremlins.",
-					"name" : "{Upg. Workshop}",
+					"name" : "{Adv. Workshop}",
 					"requires" : 
 					[ 
 						"allOf", ["castle"],["dwellingUpLvl6"]
@@ -109,8 +82,8 @@
 				},
 				"dwellingUp2Lvl2":
 				{
-					"description" : "The Parapet allows you to recruit Marble Gorgoyles.",
-					"name" : "{Upg. Parapet}",
+					"description" : "The Parapet allows you to recruit Marble Gargoyles.",
+					"name" : "{Adv. Parapet}",
 					"requires" : 
 					[ 
 						"allOf",["castle"],["dwellingUpLvl6"]
@@ -125,7 +98,7 @@
 				},
 				"horde1Upgr2" :
 				{
-					"description" : "The Sculptor's Wings increase Marble Gorgoyle production by 4 per week.",
+					"description" : "The Sculptor's Wings increase Marble Gargoyle production by 4 per week.",
 					"name" : "{Sculptor's Wings}",				
 					"cost" :
 					{
@@ -139,8 +112,8 @@
 
 				"dwellingUp2Lvl3":
 				{
-					"description" : "The Golem Factory allows you to recruit Steel Golems.",
-					"name" : "{Upg. Golem Factory}",
+					"description" : "The Golem Factory allows you to recruit Mithril Golems.",
+					"name" : "{Adv. Golem Factory}",
 					"requires" : 
 					[ 
 						"allOf",["castle"],["dwellingUpLvl6"]
@@ -158,7 +131,7 @@
 				"dwellingUp2Lvl4":
 				{
 					"description" : "The Mage Tower allows you to recruit Supreme Arch Magi.",
-					"name" : "{Upg. Mage Towers}",
+					"name" : "{Adv. Mage Towers}",
 					"requires" : 
 					[ 
 						"allOf",["dwellingUp2Lvl3"],["mageGuild2"]
@@ -179,7 +152,7 @@
 				"dwellingUp2Lvl5":
 				{
 					"description" : "The Altar of Wishes allows you to recruit Arcane Genies.",
-					"name" : "{Upg. Altar of Wishes}",
+					"name" : "{Adv. Altar of Wishes}",
 					"requires" : 
 					[ 
 						"dwellingUp2Lvl6"
@@ -198,7 +171,7 @@
 				"dwellingUp2Lvl6":
 				{
 					"description" : "The Golden Pavilion allows you to recruit Naga Empresses.",
-					"name" : "{Upg. Golden Pavilion}",
+					"name" : "{Adv. Golden Pavilion}",
 					"requires" : 
 					[ 
 						"allOf", ["castle"],["special3"],["mageGuild3"]
@@ -218,8 +191,8 @@
 				},
 				"dwellingUp2Lvl7":
 				{
-					"description" : "Cloud Temple allows you to recruit Lords of Thunder.",
-					"name" : "{Upg. Cloud Temple}",
+					"description" : "The Cloud Temple allows you to recruit Lords of Thunder.",
+					"name" : "{Adv. Cloud Temple}",
 					"requires" : 
 					[ 
 						"dwellingUp2Lvl6"
@@ -264,6 +237,25 @@
 					},
 					"id" : 64,
 					"upgrades" : "dwellingLvl7B"
+				},
+				"dwellingUp2Lvl7B" :
+				{
+					"name" : "{Adv. Dragon Factory}",
+					"description" : "The Dragon Factory allows you to recruit Silver Dragon Golems.",
+					"cost" : {
+						"gold" : 25000,
+						"wood" : 25,
+						"ore" : 25,
+						"mercury" : 15
+					},
+					"id" : 71,
+					"requires" : 
+					[ 
+						"allOf",
+						["dwellingUp2Lvl3"],
+						["dwellingUp2Lvl4"]
+					],			
+					"upgrades" : "dwellingUpLvl7B"
 				}			
 			}
 		}
