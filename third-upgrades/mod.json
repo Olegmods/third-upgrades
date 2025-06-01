@@ -146,11 +146,6 @@
 		"config/town-screen/dungeon/factions",
 		"config/town-screen/stronghold/factions"
 	],
-	
-	"artifacts" :
-	[
-		"config/artifacts/cotuk_fix"
-	],
 
 	"settings" : {
 		"combat": {
