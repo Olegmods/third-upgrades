@@ -52,8 +52,8 @@
 		"graphics" : {
 			"animation" : "creatures/inferno/CTempter.def",
 			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
-			"iconLarge" : "creatures/inferno/tempterBig.bmp",
-			"iconSmall" : "creatures/inferno/tempter.bmp",
+			"iconLarge" : "creatures/inferno/tempterBig.png",
+			"iconSmall" : "creatures/inferno/tempterSmall.png",
 			"map" : "creatures/inferno/tempterMap.def",
 			"timeBetweenFidgets" : 1,
 			"missile" :

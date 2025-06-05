@@ -26,16 +26,28 @@
 			"max" : 22
 		},
 		"abilities" : {
+
 			"shooter" : {
 				"type" : "SHOOTER" //dopisać że strzela fireballami i no melee penalty
+			},
+			"meleenopenalty" : {
+				"type" : "NO_MELEE_PENALTY"
 			},
 			"canFly" : {
 				"type" : "FLYING",
 				"subtype" : "movementFlying"
 			},
+			"fireball" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.inferno"
+			},
 			"fireImmunity" : {
-				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "fire"
+			},
+			"receptive": {
+				"type" : "RECEPTIVE"
 			},
 			"fireShield" :
 			{
