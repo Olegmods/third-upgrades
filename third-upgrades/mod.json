@@ -53,7 +53,7 @@
 	],
 	"artifacts" :
 	[
-		"config/artifacts/book"
+		"config/artifacts/book",
 		"config/artifacts/summoner_book"
 	],
 	"spells" :
